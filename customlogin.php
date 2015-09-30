@@ -48,5 +48,5 @@ function customlogin_url_logo(){
 add_filter('login_headertitle', 'customlogin_hover_text_logo');
 function customlogin_hover_text_logo(){
 	
-    return 'Nuestro texto personalizado';
+    return 'Mi texto personalizado';
 }
