@@ -50,3 +50,11 @@ function customlogin_hover_text_logo(){
 	
     return 'Mi texto personalizado';
 }
+
+/*
+ *  Personalizamos el pie de página del area de administración
+ */
+add_filter('admin_footer_text', 'customlogin_footer_admin');
+function customlogin_footer_admin () {
+ 	echo '<span id="footer-thankyou">Tema creado por <a href="http://bitado.com" target="_blank">Bitado</a></span>';
+}
