@@ -10,7 +10,6 @@ Text Domain: customlogin
 Domain Path: /languages
 */
 
-
 /*
  *  Personalizamos el logo en la página de login
  */
@@ -29,7 +28,6 @@ function customlogin_my_logo() {
     </style>';
 }
 
-
 /*
  *  Personalizamos la url del logo en la página de login
  *  Ponemos la url de nuestro blog
@@ -39,7 +37,6 @@ function customlogin_url_logo(){
 	
     return get_bloginfo( 'wpurl' );
 }
-
 
 /*
  *  Personalizamos el texto sobreimpreso al pasar el raton
